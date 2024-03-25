@@ -11,9 +11,9 @@ export default function Dashboard({ user }: { user: User }) {
       <h4>Hello, {user?.name}!</h4>
 
       <div className="my-8">
-        <h3 className="mb-4 text-center">Use Cases</h3>
+        <h3 className="mb-6 text-center">Use Cases</h3>
 
-        <div className="grid grid-flow-row gap-3">
+        <div className="grid grid-flow-row gap-4">
           <Button
             href="/use-case-1"
             as={Link}
@@ -21,10 +21,10 @@ export default function Dashboard({ user }: { user: User }) {
             size="lg"
             className="py-8 font-medium text-lg"
           >
-            Use Case 1 - Client Coverage
+            Use Case 1 - Client Prospecting
           </Button>
 
-          <Button
+          {/* <Button
             href="/use-case-2"
             as={Link}
             variant="ghost"
@@ -42,7 +42,7 @@ export default function Dashboard({ user }: { user: User }) {
             className="py-8 font-medium text-lg"
           >
             Use Case 3 - GB Risk
-          </Button>
+          </Button> */}
         </div>
       </div>
     </div>
