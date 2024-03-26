@@ -1,7 +1,7 @@
-ACR="craaiseacmateprdaue182669440652.azurecr.io"
+ACR="crpocmaybank.azurecr.io"
 TAG="/latest"
-ACR_USER="craaiseacmateprdaue182669440652"
-ACR_PASS="T9LN+evM5wAWD3QqWc8vQRli6A2v9483tc9+uQQS4p+ACRBPJK86"
+ACR_USER="crpocmaybank"
+ACR_PASS="ho97W11ysKB2FKAnB2KxaJbDHfm7Ec8J2g4zFFg1Nd+ACRAQkUyU"
 
 docker build . -f dockerfile -t $ACR$TAG --no-cache
 
