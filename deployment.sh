@@ -1,7 +1,7 @@
-ACR="crpocmaybank.azurecr.io"
+# ACR="crpocmaybank.azurecr.io"
 TAG="/latest"
-ACR_USER="crpocmaybank"
-ACR_PASS="ho97W11ysKB2FKAnB2KxaJbDHfm7Ec8J2g4zFFg1Nd+ACRAQkUyU"
+# ACR_USER="crpocmaybank"
+ACR_PASS=""
 
 docker build . -f dockerfile -t $ACR$TAG --no-cache
 
